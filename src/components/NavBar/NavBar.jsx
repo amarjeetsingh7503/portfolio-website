@@ -16,7 +16,7 @@ function NavBar() {
     const logoIcon = theme === 'light' ? LogoLight : LogoDark
   return (
     <header className="navbar">
-        <a href="/" className="brand-name">
+        <a href="#" className="brand-name">
           <img src={logoIcon} alt="" />
           <p>AMARJEET SINGH</p>
         </a>
