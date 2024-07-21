@@ -22,29 +22,29 @@ span {
                 width: 40px;
             }
         }
-    }
+}
 
-    a button {
-        background-color: var(--btn-color);
-        color: var(--btn-text-color);
-        border: none;
-        border-radius: 20px;
-        width: 126px;
-        height: 40px;
-        font-size: 15px;
-        font-weight: bold;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        transition: 200ms ease-in-out;
-        cursor: pointer;
-    }
+a button {
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    border: none;
+    border-radius: 20px;
+    width: 126px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
 
-    button:hover {
-        transform: scale(1.05);
-    }
+button:hover {
+    transform: scale(1.05);
+}
 
-    button:active {
-        transform: translateY(2px)
-    }
+button:active {
+    transform: translateY(2px)
+}
 
 
 .colorModeContainer {
@@ -53,7 +53,7 @@ span {
 
 .colorMode {
     position: absolute;
-    right: 0;
+    /* right: 0; */
     width: 30px;
     cursor: pointer;
 }
@@ -71,10 +71,36 @@ span {
     padding-top: 20px;
 }
 
-@media (max-width: 847px) {
+@media (max-width: 976px) {
     .container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
     }
 
+    .info {
+        align-items: center;
+    }
 
-  }
+}
+
+@media (max-width: 624px) {
+    .description {
+        width: 50ch;
+    }
+}
+
+@media (max-width: 524px) {
+    .description {
+        width: 45ch;
+    }
+
+    .myImg {
+        max-width: 200px;
+    }
+
+    .colorMode {
+        width: 20px;
+    }
+}

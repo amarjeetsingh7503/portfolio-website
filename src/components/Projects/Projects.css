@@ -29,8 +29,6 @@ button {
     color: var(--btn-text-color);
     border: none;
     border-radius: 20px;
-    width: 120px;
-    height: 50px;
     font-size: 15px;
     font-weight: bold;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -43,4 +41,29 @@ button:hover {
 
 button:active {
     transform: translateY(2px)
+}
+
+@media (max-width: 624px) {
+    .card-img-top {
+        margin-top: 50px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 524px) {
+    .projectContainer {
+        margin-top: 30px;
+    }
+
+    .sectionTitle {
+        margin-bottom: 0px;
+    }
+
+    .projects {
+        gap: 50px;
+    }
+
+    .project-card {
+        padding: 0rem;
+    }
 }

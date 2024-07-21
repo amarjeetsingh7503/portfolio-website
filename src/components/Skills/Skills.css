@@ -15,12 +15,47 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 100px;
-    padding: 50px 100px 0 50px;
+    padding: 50px 100px 0 100px;
 }
 
 .skillName {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
+}
+
+@media (max-width: 976px) {
+    .skillsContainer {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 624px) {
+    .skillsContainer {
+        img {
+            width: 30%;
+        }
+    }
+}
+
+@media (max-width: 524px) {
+    .skills {
+        gap: 20px
+    }
+}
+
+@media (max-width: 468px) {
+    .skillsContainer {
+        margin-top: 25px;
+    }
+
+    .skills {
+        padding: 0;
+        margin-top: 15px;
+        gap: 20px;
+    }
 }
