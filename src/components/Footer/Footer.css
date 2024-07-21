@@ -1,0 +1,21 @@
+.footer {
+    background-color: rgba(128, 128, 128, 0.13);
+    height: 150px;
+    border-top: 2px solid gray;
+    color: var(--text-color);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-links img {
+    width: 25px;
+}

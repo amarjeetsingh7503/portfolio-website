@@ -1,0 +1,26 @@
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+
+    img{
+        width: 150px;
+    }
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 100px 0 50px;
+}
+
+.skillName {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
