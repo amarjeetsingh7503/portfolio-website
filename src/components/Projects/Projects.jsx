@@ -6,6 +6,7 @@ import ToDoApp from '../../assets/img/toDoApp.png'
 import SpotifyClone from '../../assets/img/spotifyClone.png'
 import SimonGame from '../../assets/img/simonGame.png'
 import RandomColorGenerator from '../../assets/img/randomColorGenerator.png'
+import PokemonApp from '../../assets/img/pokeball.jpg'
 
 export default function Projects() {
   return (
@@ -48,24 +49,6 @@ export default function Projects() {
                     </Card.Body>
                 </Card>
             </div>
-
-            <div className="project-card">
-                <Card>
-                    <Card.Img variant="top" src={ToDoApp} width={500} style={{border: '2px solid #222', objectFit: "cover"}}/>
-                    <br /><br />
-                    <Card.Body >
-                        <h3>To Do Application</h3><br />
-                        <Card.Text>Organize Your Day, One Task at a Time.</Card.Text>
-                        <br /><br />
-                        <a href='https://amarjeetsingh7503.github.io/ToDoApplication/' target='_blank'>
-                            <button>Visit Here</button>
-                        </a> &nbsp;
-                        <a href='https://github.com/amarjeetsingh7503/ToDoApplication' target='_blank'>
-                            <button>Source Code</button>
-                        </a>
-                    </Card.Body>
-                </Card>
-            </div>
             
             <div className="project-card">
                 <Card style={{paddingBottom: "10px"}}>
@@ -80,6 +63,42 @@ export default function Projects() {
                             <button>Visit Here</button>
                         </a> &nbsp;
                         <a href='https://github.com/amarjeetsingh7503/SpotifyClone' target='_blank'>
+                            <button>Source Code</button>
+                        </a>
+                    </Card.Body>
+                </Card>
+            </div>
+
+            <div className="project-card">
+                <Card>
+                    <Card.Img variant="top" src={PokemonApp} width={500} style={{border: '2px solid #222', objectFit: "cover"}}/>
+                    <br /><br />
+                    <Card.Body >
+                        <h3>React Pokemon App</h3><br />
+                        <Card.Text>Catch 'Em All with Real-Time Pokémon Insights</Card.Text>
+                        <br /><br />
+                        <a href='https://amarjeetsingh7503.github.io/pokemon-app/' target='_blank'>
+                            <button>Visit Here</button>
+                        </a> &nbsp;
+                        <a href='https://github.com/amarjeetsingh7503/pokemon-app/' target='_blank'>
+                            <button>Source Code</button>
+                        </a>
+                    </Card.Body>
+                </Card>
+            </div>
+
+            <div className="project-card">
+                <Card>
+                    <Card.Img variant="top" src={ToDoApp} width={500} style={{border: '2px solid #222', objectFit: "cover"}}/>
+                    <br /><br />
+                    <Card.Body >
+                        <h3>To Do Application</h3><br />
+                        <Card.Text>Organize Your Day, One Task at a Time.</Card.Text>
+                        <br /><br />
+                        <a href='https://amarjeetsingh7503.github.io/ToDoApplication/' target='_blank'>
+                            <button>Visit Here</button>
+                        </a> &nbsp;
+                        <a href='https://github.com/amarjeetsingh7503/ToDoApplication' target='_blank'>
                             <button>Source Code</button>
                         </a>
                     </Card.Body>
