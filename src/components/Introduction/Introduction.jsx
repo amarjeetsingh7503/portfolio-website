@@ -27,7 +27,7 @@ function Introduction() {
         </div>
         <div className="info">
             <h1>Amarjeet Singh</h1>
-            <h3>Full Stack Developer</h3>
+            <h3>Software Developer</h3>
             <p className="description">Innovative Full Stack Developer crafting modern, responsive web applications and turning ideas into interactive realities with end-to-end development.</p>
             <span>
                 <a href="https://www.linkedin.com/in/amarjeet-singh-414a43284/" target="_blank">
