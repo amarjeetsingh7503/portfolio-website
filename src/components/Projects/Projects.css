@@ -18,6 +18,7 @@
 .project-card {
     padding: 1rem;
     transition: 200ms ease-in-out;
+    border-radius: 20px;
 }
 
 .project-card:hover {
