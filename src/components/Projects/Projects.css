@@ -47,7 +47,7 @@ button:active {
 @media (max-width: 624px) {
     .card-img-top {
         margin-top: 50px;
-        width: 70%;
+        width: 90%;
     }
 }
 
@@ -61,10 +61,15 @@ button:active {
     }
 
     .projects {
-        gap: 50px;
+        gap: 20px;
     }
 
     .project-card {
-        padding: 0.5rem;
+        padding: 0rem;
     }
+
+    .project-card:hover {
+        all: unset;
+        cursor: default
+}
 }
